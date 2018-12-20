@@ -1,0 +1,23 @@
+vendor/
+node_modules/
+npm-debug.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+storage/*.key
+.env.*.php
+.env.php
+local/.env
+Homestead.yaml
+Homestead.json
+
+
+/public/web.config
+/.idea
+/.git
+composer.lock

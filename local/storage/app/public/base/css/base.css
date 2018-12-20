@@ -1,0 +1,261 @@
+/*all*/
+body{
+	font-family: Muli, sans-serif;
+}
+.pull-right{
+	float: right;
+}
+#wrapper{
+	background: #FFF;
+	width: 100%;
+	margin:auto;
+	overflow: hidden;
+}
+#main{
+	width: 100%;
+	margin:auto;
+} 
+.main-color,a.main-color{
+	color: #C2D44E;
+}
+.white, a.white{
+	color: #FFF;
+}
+.black, a.black{
+	color: #000;
+}
+.red, a.red{
+	color: #D11D1D;
+}
+.normalize,a.normalize{
+	color: unset;
+	text-decoration: none;
+}
+.grey-1, a.grey-1{color: #111;}
+.grey-2, a.grey-2{color: #222;}
+.grey-3, a.grey-3{color: #333;}
+.grey-4, a.grey-4{color: #444;}
+.grey-5, a.grey-5{color: #555;}
+.grey-6, a.grey-6{color: #666;}
+.grey-7, a.grey-7{color: #777;}
+.grey-8, a.grey-8{color: #888;}
+.grey-9, a.grey-9{color: #999;}
+.grey-e, a.grey-e{color: #eee;}
+.grey-c, a.grey-c{color: #ccc;}
+.grey-a, a.grey-a{color: #aaa;}
+
+.transparent{
+	color: transparent;
+}
+.bold{
+	font-weight: bold;
+}
+.semi-bold{font-weight: 600;}
+.italic{
+	font-style: italic;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.line-through{
+	text-decoration: line-through;
+}
+.center{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+.relative{
+	position: relative;
+}
+.h-100{height: 100%;}
+.w-100{width: 100%;}
+.border-shadow{
+	box-shadow: 0 0 7px #ccc;
+}
+.mt-25{
+	margin-top: 25px!important;
+}
+.mt-50{
+	margin-top: 50px!important;
+}
+.mb-25{
+	margin-bottom: 25px!important;
+}
+.mb-50{
+	margin-bottom: 50px!important;
+}
+.pt-25{
+	padding-top: 25px!important;
+}
+.pt-50{
+	padding-top: 50px!important;
+}
+.pb-25{
+	padding-bottom: 25px!important;
+}
+.pb-50{
+	padding-bottom: 50px!important;
+}
+.pb-200{
+	padding-bottom: 200px!important;
+}
+/*section*/
+.hs-section{
+	padding:50px 0;
+}
+.hs-section-margin-top{
+
+}
+.hs-line-top{
+
+}
+/*block and text*/
+.hs-center{
+	text-align: center;
+}
+.hs-right{
+	text-align: right;
+}
+.hs-left{
+	text-align: left;
+}
+.hs-heading-1{
+	width: 100%;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 600;
+	text-align: center;
+}
+.hs-heading-2{
+
+}
+.hs-heading-3{
+
+}
+.hs-heading-4{
+
+}
+.hs-small-text{
+	font-size: 10px;
+	color: #999;
+}
+.fs-10{font-size: 10px;}
+.fs-12{font-size: 12px;}
+.fs-14{font-size: 14px;}
+.fs-16{font-size: 16px;}
+.fs-18{font-size: 18px;}
+.fs-20{font-size: 20px;}
+.fs-22{font-size: 22px;}
+.fs-24{font-size: 24px;}
+.fs-26{font-size: 26px;}
+.fs-28{font-size: 28px;}
+.fs-30{font-size: 30px;}
+
+@media (max-width: 767px){
+	.fs-24{font-size: 14px;}
+}
+/*button*/
+
+.hs-btn, a.hs-btn{
+	display: inline-block;
+	text-align: center;
+	border:2px solid #999;
+	color: #999;
+	text-decoration: none;
+}
+.hs-btn-110-38, a.hs-btn-110-38{
+	height: 38px;
+	line-height: 38px;
+	width: 110px;
+	font-size: 14px;
+}
+.hs-btn-90-30, a.hs-btn-90-30{
+	height: 30px;
+	line-height: 30px;
+	width: 90px;
+	font-size: 14px;
+}
+.hs-btn-green, a.hs-btn-green{
+	color: #FFF;
+	border:none;
+	background: #C2D44E;
+}
+.hs-btn-sm{
+
+}
+.hs-btn-lg{
+	padding: 7px 30px;
+}
+
+.side-dash-both{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+.side-dash-both span{
+	padding: 0 10px;
+}
+.side-dash-both:before,.side-dash-both:after{
+	border-top: 1px solid #FFF;
+	content: "";
+	height: 1px;
+	width: 100%;
+	flex: 1;
+	transform: translateY(8px);
+}
+
+.error{
+	color: red;
+	font-size: 12px;
+	font-style: italic;
+}
+
+@media (max-width: 767px) {
+	.hs-section{
+		padding: 25px 0;
+	}
+	.hs-heading-1{
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.col-flex{
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+/**
+Snackbar
+**/
+#snackbar {
+	visibility: hidden;
+	min-width: 250px;
+	margin-left: -125px;
+	background-color: #ffc107;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	padding: 16px;
+	position: fixed;
+	z-index: 9999;
+	right: 15px;
+	top: 15px;
+	font-size: 17px;
+}
+
+#snackbar.show {
+	visibility: visible;
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+.errorAlert{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	z-index: 9999;
+	transition: 2s;
+}

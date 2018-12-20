@@ -1,0 +1,266 @@
+.navigation{
+	height: 120px;
+	background-color: #C2D44E;
+	display: flex;
+	flex-wrap: wrap;
+}
+.navigation a{
+	display: block;
+	flex: 1;
+	text-align: center;
+	vertical-align: middle;
+	height: 100%;
+	line-height: 100px;
+	color: #FFF!important;
+	font-size: 16px;
+	font-weight: 400;
+	position: relative;
+	font-family: Muli;
+	cursor: pointer;
+}
+.navigation figure{
+	height: 2px;
+	width: 100%;
+	background: #A9BD2C;
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+}
+.navigation figure.active{
+	background: #FFF;
+}
+.navigation figure:before{
+	content: "";
+	height: 18px;
+	width: 18px;
+	background: #A9BD2C;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -9px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.navigation figure.first:before{
+	left: 0;
+}
+.navigation figure.last:before{
+	left: 100%;
+}
+.navigation figure.first{
+	width: 50%;
+	left: 50%;
+}
+.navigation figure.last{
+	width: 50%;
+	right: 50%;
+}
+.navigation figure.active:before{
+	background: #FFF;
+}
+.navigation figure.active:after{
+	content: "";
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	bottom: -4px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #A9BD2C;
+}
+.navigation figure.first.active:after{
+	left: 0;
+}
+.navigation figure.last.active:after{
+	left: 100%;
+}
+
+.form-item{
+	padding: 15px;
+}
+.form-item label{
+	font-family: 'Muli';
+	font-weight: 600;
+	display: block;
+}
+
+.form-item input[type='text'],.form-item select{
+	width: 50%;
+	border: 1px solid #999;
+	padding: 0 15px;
+	height: 40px;
+	margin-bottom: 5px;
+	font-family: Muli;
+}
+.form-item input::placeholder{
+	color: #999;
+	font-family: Muli;
+}
+.tip-text{
+	font-size: 14px;
+	font-style: italic;
+	font-family: Muli;
+	color: #999;
+}
+.form-item input[type='checkbox']{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #999;
+	background:#FFF;
+	margin-right: 5px;
+}
+.checkbox-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.checkbox-item{
+	flex: 0 0 25%;
+	margin-top: 5px;
+}
+
+.form-item .rule{
+	width: 100%;
+	height: 130px;
+	padding: 0 15px;
+}
+.form-item .description{
+	width: 100%;
+	height: 204px;
+	padding: 0 15px;
+}
+.form-item button,.form-item-2 button{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	width: 120px;
+	border: none;
+	background: #C2D44E;
+	color: #FFF;
+	font-family: Muli;
+	font-size: 14px;
+	text-align: center;
+}
+.form-item>a{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	width: 120px;
+	border: 1px solid #999;
+	color: #999;
+	font-family: Muli;
+	font-size: 14px;
+	text-align: center;
+}
+
+.form-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.form-item-2{
+	flex: 0 0 50%;
+	padding: 15px;
+}
+.form-item-2 label{
+	font-family: 'Muli';
+	font-weight: 600;
+	display: block;
+}
+.form-item-2 input[type='text'], .form-item-2 select{
+	width: 100%;
+	border: 1px solid #999;
+	padding: 0 15px;
+	height: 40px;
+	margin-bottom: 5px;
+	color: #999;
+}
+.bedroom-img{
+	display: inline-block;
+	height: 160px;
+	width: 160px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.form-item-2-btn{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.form-item-2>a{
+	display: inline-block;
+	color: unset;
+	text-decoration: none;
+	height: 40px;
+	line-height: 40px;
+	width: 120px;
+	border: 1px solid #999;
+	background: #FFF;
+	color: #999;
+	font-family: Muli;
+	font-size: 14px;
+	text-align: center;
+}
+
+.form-item-2 a:hover{
+	background: #999;
+	color: #FFF;
+}
+
+.form-item-2 .save-btn{
+	float: right;
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+.form-item .add-room-btn{
+	display: block;
+	background :#FFF;
+	color: #9fb702;
+	border:1px solid #C2D44E;
+	font-size: 24px;
+	font-weight: 700;
+	width: 300px;
+	height: 50px;
+	margin: auto;
+	cursor: pointer;
+	outline: none;
+}
+.form-item .add-room-btn .fa-plus{
+	font-size: 24px;
+}
+
+#bedroom-list .row{
+	min-height: 400px;
+}
+
+.add-image-icon{
+	cursor: pointer;
+}
+
+.bedroom-img .delete{
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	left: 0;
+	background: #eeeeee77;
+	display: none;
+}
+.bedroom-img .delete a{
+	color: unset;
+	text-decoration: none;
+}
+.bedroom-img .delete i{
+	position: absolute;
+	right: 10px;
+	top:15px;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+#yourlocation, #yourbedroom, #yourphoto{
+	display: none;
+}

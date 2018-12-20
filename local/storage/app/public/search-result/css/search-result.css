@@ -1,0 +1,434 @@
+.section-1 {
+    background: url(../image/banner.png) no-repeat center;
+    background-size: cover;
+    height: 330px;
+    width: 100%;
+    position: relative;
+}
+
+.form-container {
+    height: 330px;
+    width: 100%;
+    position: relative;
+}
+
+.search-form {
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0 0 5px #999;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-form form {
+    width: 100%;
+}
+
+.first-row {
+    width: 100%;
+    display: flex;
+}
+
+.my-form {
+    margin: 0 20px;
+}
+
+.my-group {
+    display: flex;
+}
+
+.my-item {
+    margin-right: 10px;
+    flex: 1;
+}
+
+.my-item:last-child {
+    margin-right: 0;
+}
+
+.my-form label {
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.my-form input[type="text"], .my-form select {
+    width: 100%;
+    height: 38px;
+    border: 1px solid #ccc;
+    color: #999;
+    outline: none;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.destination input[type="text"] {
+    padding-left: 40px;
+    width: 300px;
+}
+
+.calendar input[type="text"] {
+    padding-right: 40px;
+    width: 200px;
+    text-align: left;
+}
+
+.my-form select {
+    width: 80px;
+}
+
+.my-form button {
+    background: #C2D44E;
+    width: 110px;
+    height: 38px;
+    color: #FFF;
+    border: none;
+}
+
+.destination, .calendar {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.destination:before {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+    content: "\f041";
+    color: #999;
+}
+
+.calendar:after {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+    content: "\f073";
+    color: #999;
+}
+
+.check-form {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.checkbox {
+    display: inline-block;
+    transform: translateY(2px);
+    height: 16px;
+    width: 16px;
+    border: 1px solid #999;
+}
+
+.homestay-item {
+    height: 200px;
+    width: 750px;
+    border: 1px solid #ccc;
+    margin: 10px auto 20px;
+    display: flex;
+}
+
+.item-image {
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-content {
+    margin-left: 40px;
+    padding: 10px;
+    position: relative;
+    width: 500px;
+}
+
+.slide-price {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000;
+    position: absolute;
+    left: 10px;
+    bottom: 55px;
+}
+
+.slide-review {
+    display: flex;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.slide-score {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    background: #C2D44E;
+}
+
+.slide-grade {
+    display: block;
+    margin-left: 10px;
+}
+
+.slide-grade > span:first-child {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.slide-grade > span:last-child {
+    display: block;
+}
+
+.input-daterange {
+    display: flex;
+}
+
+.date-input:first-child {
+    margin-right: 40px;
+}
+
+.datepicker th, td {
+    padding: 5px;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+.datepicker th {
+    font-weight: 700;
+}
+
+.noUi-base, .noUi-horizontal {
+    height: 4px;
+}
+
+.noUi-horizontal .noUi-handle {
+    height: 20px;
+    width: 20px;
+    top: -9px;
+}
+
+.noUi-handle {
+    border-radius: 50%;
+    box-shadow: 0 0 3px #666;
+    background: #FFF;
+}
+
+html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
+    right: -10px;
+}
+
+.noUi-connect {
+    background: #C2D44E;
+}
+
+#price-from, #price-to {
+    display: inline-block;
+    margin-top: 20px;
+    width: 90px;
+    padding: 0 5px;
+    color: #666;
+    border: none;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+#price-from {
+    float: left;
+    transform: translateX(-15px);
+}
+
+#price-to {
+    float: right;
+    transform: translateX(15px);
+}
+
+.my-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-item {
+    flex: 1;
+}
+
+#myPagination {
+    display: inline-block;
+    float: right;
+}
+
+#myPagination:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.myPagination,.myPagination.disabled {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #CCCCCC;
+    color: #999;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.myPagination.active, a.myPagination.active, a.myPagination:hover {
+    color: #C2D44E !important;
+    border-color: #C2D44E !important;
+}
+.myPagination.disabled:hover, a.myPagination.disabled:hover{
+    color: #999!important;
+    border: 1px solid #CCCCCC!important;
+}
+.myPagination.active, a.myPagination.active {
+    cursor: auto;
+}
+
+.loader {
+    position: relative;
+}
+.loader:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(108, 134, 113, 0.25);
+    z-index: 1;
+}
+.loader:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #C2D44E;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    z-index: 1;
+}
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@media (max-width: 767px) {
+    .search-form {
+        background: none;
+        box-shadow: none;
+        padding: 15px 40px;
+        position: unset;
+        transform: none;
+    }
+
+    .section-1 .my-form label {
+        display: none;
+    }
+
+    .first-row {
+        display: block;
+    }
+
+    .calendar input[type="text"], .my-form select, .my-form button, .destination input[type="text"] {
+        width: 100%;
+        height: 34px;
+    }
+
+    .date-input:first-child {
+        margin-right: 10px;
+    }
+
+    .my-form {
+        margin: 0;
+    }
+
+    .my-item:first-child {
+        margin-right: 10px;
+    }
+
+    .check-form {
+        margin-left: 0;
+        margin-top: 10px;
+        color: #FFF;
+    }
+
+    .my-form button {
+        font-size: 14px;
+    }
+
+    .section-1, .form-container {
+        height: 260px;
+    }
+
+    #facility_form {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background: #FFF;
+        z-index: 1;
+        display: none;
+    }
+
+    #facility_form .my-form div {
+        flex: 0 0 50%;
+    }
+
+    #facility_form .my-form div#price {
+        flex: 100%;
+    }
+
+    .homestay-item {
+        height: auto;
+        width: auto;
+        display: block;
+    }
+
+    .item-image {
+        width: auto;
+    }
+
+    .item-content {
+        width: auto;
+        margin-left: auto;
+        padding: 15px;
+    }
+
+    .slide-price, .slide-review {
+        position: unset;
+        margin-top: 5px;
+    }
+}

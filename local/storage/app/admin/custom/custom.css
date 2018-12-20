@@ -1,0 +1,86 @@
+.avatar_user{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px #666;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.errorAlert{
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 9999;
+    transition: 2s;
+}
+
+.action-order a{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+/*book*/
+#book-table{
+    margin-top: 50px;
+}
+
+#book-table table{
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+}
+
+#book-table table thead{
+    color: #FFF;
+    font-weight: 600;
+    background-color: #C2D44E;
+}
+
+#book-table table tbody tr{
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#book-table table td{
+    padding: 10px 5px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+#book-table table td a{
+    cursor: pointer;
+}
+#detailModal{
+
+}
+
+#detailModal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+#detailModal table td{
+    padding: 5px;
+}
+#detailModal table tbody tr td:first-child{
+    color: #666;
+    font-weight: 600;
+    font-size: 13px;
+}
+#detailModal table tbody td{
+    border: 1px solid #ccc;
+}
+#detailModal table thead{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#detailModal table td img{
+    max-width: 100%;
+}
+.line-through{
+    text-decoration: line-through;
+}

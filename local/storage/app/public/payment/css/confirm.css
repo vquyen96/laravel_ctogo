@@ -1,0 +1,36 @@
+.confirm-box{
+	border: 1px solid #ccc;
+	position: relative;
+	padding: 20px;
+	font-weight: 600;
+}
+
+.confirm-box-main{
+	padding: 30px;
+}
+
+.confirm-box-header{
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+.confirm-box-body{
+	border: 1px solid #ccc;
+	position: relative;
+	padding: 20px;
+}
+
+.navigation{
+	justify-content: center;
+}
+
+.navigation li{
+	font-family: Muli;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 0 37px;
+	color: #999;
+}
+.navigation li.active{
+	color: #C2D44E;
+}

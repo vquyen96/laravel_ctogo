@@ -1,0 +1,90 @@
+.section-1{
+	height: 800px;
+	position: relative;
+	margin:auto;
+	width: 100%;
+	background: url(../image/banner.png) no-repeat center;
+	background-size: cover;
+}
+
+.login-container{
+	height: 630px;
+	width: 555px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 1px solid #FFF;
+}
+
+.login-form{
+	width: 321px;
+	margin: 60px auto;
+}
+
+.login-form input{
+	padding: 20px;
+	background:none;
+	border: 1px solid #FFF;
+	color: #FFF;
+	height: 40px;
+	width: 320px;
+	margin-top: 20px;
+}
+.login-form input::placeholder{
+	color: #FFF;
+}
+
+.login-btn{
+	width: 320px;
+	height: 40px;
+	background: #C2D44E;
+	border:none;
+	color: #FFF;
+	margin-top: 20px;
+}
+.fb-login-button{
+	margin-top: 20px;
+}
+
+#google-login{
+	margin-top: 20px;
+}
+.social-cont{
+	margin-top: 20px;
+}
+.fb-btn, .gg-btn, a.fb-btn, a.gg-btn, a.fb-btn:hover, a.gg-btn:hover {
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	display: block;
+	font-size: 13px;
+	color: #FFF;
+	text-align:center;
+	position: relative;
+    text-decoration: none;
+}
+.fb-btn {
+	background-color: #4D71CD;
+}
+.gg-btn {
+	background-color: #D16152;
+}
+.fb-btn i, .gg-btn i {
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	transform: translate(-50%,-50%);
+	font-size: 16px;
+}
+@media (max-width: 767px) {
+	.fb-btn {
+		height: 34px;
+		line-height: 34px;
+	}
+
+	.gg-btn {
+		height: 34px;
+		line-height: 34px;
+	}
+}

@@ -1,0 +1,37 @@
+#contact-form{
+    position: relative;
+}
+
+#contact-form input, #contact-form textarea{
+    padding: 10px 20px;
+    background:none;
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+}
+#contact-form textarea{
+    height: auto;
+    padding-top: 10px;
+    min-height: 120px;
+}
+
+#contact-form button{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.contact-us-image{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-us-image:after{
+    display: block;
+    content: "";
+    padding-top: 100%;
+}

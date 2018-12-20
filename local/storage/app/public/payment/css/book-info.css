@@ -1,0 +1,83 @@
+/*book-box*/
+.book-box{
+	height: 100%;
+	border: 1px solid #ccc;
+}
+.book-box-header{
+	background: #DEDEDE;
+	font-family: Muli;
+	font-weight: 600;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+.book-box-body{
+	padding: 20px;
+	position: relative;
+}
+.book-homestay{
+	display: flex;
+}
+.book-image{
+	height: 110px;
+	width: 110px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.book-homestay-code{
+	color: #C2D44E;
+}
+.book-homestay-info{
+	padding: 5px 20px;
+	flex: 1;
+}
+.book-homestay-name{
+	font-family: Muli;
+	color: black;
+	font-size: 16px;
+}
+.book-homestay-address{
+	font-family: Muli;
+	color: #999;
+	font-size: 16px;
+}
+.book-info{
+	padding: 30px 0;
+}
+.book-info-row{
+	display: flex;
+	font-size: 14px;
+	font-weight: 600;
+	font-family: Muli;
+	margin-bottom: 12px;
+}
+.book-info-row-last{
+	display: flex;
+}
+.book-info-left{
+	flex: 1;
+	text-align: left;
+}
+.book-info-right{
+	flex: 1;
+	text-align: right;
+}
+.book-info-discount{
+	color: #D11D1D;
+	font-style: italic;
+	font-size: 12px;
+}
+.book-info-row-last .book-info-left{
+	flex: 1;
+	text-transform: uppercase;
+	font-family: Muli;
+	text-align: left;
+	font-weight: 600;
+}
+.book-info-row-last .book-info-right{
+	flex: 1;
+	font-family: Muli;
+	font-weight: bold;
+	text-align: right;
+}

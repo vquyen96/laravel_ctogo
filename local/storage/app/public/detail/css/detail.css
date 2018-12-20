@@ -1,0 +1,528 @@
+.section-1 {
+    background: url(../image/banner.png) no-repeat center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.h1-sec1 {
+    margin-top: 250px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.slide-container {
+    padding: 10px;
+    box-shadow: 0 0 15px 1px #999;
+    transform: translateY(-80px);
+    background: #FFF;
+}
+
+.slide-item-1 {
+    height: 150px;
+    width: 260px;
+    background: #eee;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.owl-prev, .owl-next {
+    height: 26px;
+    width: 26px;
+    border: 1px solid #ccc !important;
+}
+
+.host-info {
+    border: 2px solid #CCCCCC;
+    padding: 10px 10px 30px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.host-avatar {
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+}
+
+.host-description {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.service li {
+    flex: 0 0 33%;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.select-box {
+    border: 1px solid #C2D44E;
+    width: 100%;
+    max-width: 160px;
+    height: 38px;
+    background: #FFF;
+    box-shadow: none;
+    text-align: left;
+    padding: 0 15px;
+}
+
+.homestay_about {
+    font-size: 16px !important;
+    line-height: 200%;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+.room-item {
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+}
+
+.room-image {
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.room-content {
+    margin-left: 20px;
+    padding: 10px;
+    flex: 1;
+    position: relative;
+}
+
+.room-service {
+}
+
+.room-service li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.room-slot {
+    color: #999;
+    border: 1px solid #ccc;
+    height: 30px;
+    width: 120px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 0 15px;
+}
+
+.room-detail {
+    padding: 30px;
+}
+
+.room-detail ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.room-detail ul li {
+    flex: 0 0 25%;
+    margin-top: 15px;
+}
+
+.collapse, .collapsing {
+    flex: 100%;
+    width: 100%;
+}
+
+.book-btn, a.book-btn {
+    display: none;
+    position: absolute;
+    text-align: center;
+    color: #FFF !important;
+    right: 20px;
+    bottom: 20px;
+}
+
+.available-btn {
+    display: block;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    display: none;
+}
+
+.avail {
+    background: #FF993A;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFF !important;
+    width: 100px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.not-avail {
+    background: #CCCCCC;
+    color: #FFF !important;
+    height: 25px;
+    line-height: 25px;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.see-detail {
+    height: 35px;
+    line-height: 35px;
+    background: #000;
+    color: #FFF !important;
+    font-size: 14px;
+    text-align: center;
+    flex: 100%;
+    cursor: pointer;
+    display: block;
+}
+
+a.see-detail {
+    text-decoration: none;
+    color: unset;
+}
+
+.review-item {
+    border: 1px solid #C2D44E;
+    height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.review-user {
+    height: 140px;
+    width: 140px;
+}
+
+.user-ava {
+    height: 68px;
+    width: 68px;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.review-content {
+    margin-left: 30px;
+    padding: 10px;
+    flex: 1;
+}
+
+.slide-item {
+    width: 370px;
+    margin: auto;
+    padding: 10px 10px 50px 10px;
+    position: relative;
+    height: 400px;
+}
+
+.slide-item:hover {
+    box-shadow: 0 0 3px #999;
+}
+
+.slide-item:hover .slide-image {
+    background-size: 130%;
+}
+
+.slide-image {
+    position: relative;
+    height: 200px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    transition: 1s;
+}
+
+.slide-where, .slide-new, .slide-hot {
+    position: absolute;
+    color: #FFF;
+}
+
+.slide-where {
+    font-size: 14px;
+    font-style: italic;
+    right: 10px;
+    bottom: 5px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.slide-new, .slide-hot {
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    top: 10px;
+    right: 10px;
+}
+
+.slide-new {
+    background: #C2D44E;
+}
+
+.slide-hot {
+    background: #FFC960;
+}
+
+.slide-name {
+    font-size: 14px;
+    color: #666;
+    line-height: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    display: block;
+}
+
+.slide-price {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000;
+    position: absolute;
+    left: 10px;
+    bottom: 100px;
+}
+
+.slide-review {
+    display: flex;
+    position: absolute;
+    left: 10px;
+    bottom: 40px;
+}
+
+.slide-score {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    background: #C2D44E;
+}
+
+.slide-grade {
+    display: block;
+    margin-left: 10px;
+}
+
+.slide-grade > span:first-child {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.slide-grade > span:last-child {
+    display: block;
+}
+
+.owl-stage-outer {
+    padding: 20px 0;
+}
+
+.section-5 {
+    padding-bottom: 150px;
+}
+
+.fa-star.active {
+    color: #FFC960;
+}
+
+.calendar {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.calendar input[type="text"] {
+    border: 1px solid #C2D44E;
+    width: 262px;
+    height: 38px;
+    background: #FFF;
+    box-shadow: none;
+    text-align: left;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.calendar:after {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+    content: "\f073";
+    color: #999;
+}
+
+#map {
+    width: 100%;
+    height: 450px;
+}
+
+.room-calendar {
+    display: inline-block;
+}
+
+.room-calendar .table-condensed {
+    margin: auto;
+}
+
+.room-calendar .datepicker {
+    border: 1px solid #ccc;
+}
+
+.block-avail, .block-disable {
+    padding-left: 40px;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.block-avail:after, .block-disable:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #eee;
+}
+.block-avail:after {
+    background-color: #FFF;
+}
+
+.block-disable:after {
+    background-color: #eee;
+}
+
+.datepicker th {
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    height: 30px;
+}
+
+.datepicker-inline {
+    display: inline-block;
+    width: auto;
+}
+
+.datepicker th.dow {
+    height: auto;
+}
+
+.datepicker td {
+    border: 1px solid #ccc;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.datepicker table tr td.disabled, .datepicker table tr td.disabled:hover {
+    background: #eee;
+}
+
+.datepicker table tr td.range {
+    background: #c2d44e7a;
+}
+
+.datepicker table tr td.selected {
+    background: #C2D44E;
+    color: #000;
+}
+
+.datepicker table tr td.today {
+    background-image: linear-gradient(to bottom, #fdd49a, #fdf59a);
+}
+
+.datepicker table tr td.active.active {
+    background-color: #C2D44E;
+}
+
+@media (max-width: 767px) {
+    .section-1 {
+        display: none;
+    }
+
+    .slide-container {
+        box-shadow: none;
+        transform: none;
+        padding: 0;
+    }
+
+    .slide-item-1 {
+        height: auto;
+        width: auto;
+    }
+
+    .slide-item-1:after {
+        display: block;
+        content: "";
+        padding-top: 56.25%;
+    }
+
+    .section-5 {
+        padding-bottom: 30px;
+    }
+
+    .room-item {
+        display: block;
+        width: auto;
+    }
+
+    .room-image {
+        display: block;
+        width: auto;
+    }
+
+    .room-detail ul li {
+        flex: 0 0 50%;
+    }
+
+    .host-info {
+        position: relative !important;
+    }
+
+    .service li {
+        flex: 0 0 50%;
+    }
+
+    .homestay_about {
+        font-size: 12px !important;
+    }
+
+    .available-btn {
+        position: unset;
+    }
+}
